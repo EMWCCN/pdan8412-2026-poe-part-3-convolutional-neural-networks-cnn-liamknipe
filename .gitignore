@@ -1,0 +1,14 @@
+venv/
+.venv/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+# The images are about 760 MB, so they stay out of the repo (download link in data/README.md)
+data/*
+!data/README.md
+# Earlier drafts and the Word copy of the report are not part of the submission
+_old_drafts/
+report/*.docx
